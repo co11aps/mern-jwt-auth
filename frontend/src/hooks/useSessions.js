@@ -9,9 +9,6 @@ const useSessions = (opts = {}) => {
     queryFn: getSessions,
     ...opts,
   });
-
-  console.log(sessions);
-
   return {
     sessions,
     ...rest,

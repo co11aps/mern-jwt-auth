@@ -10,7 +10,6 @@ const useAuth = (opts = {}) => {
     staleTime: Infinity, //saves user in cash
     ...opts,
   });
-  console.log(user);
   return {
     user,
     ...rest,
