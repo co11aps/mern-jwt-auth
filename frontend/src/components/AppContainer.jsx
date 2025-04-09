@@ -1,6 +1,7 @@
 import { Box, Center, Spinner } from "@chakra-ui/react";
 import useAuth from "../hooks/useAuth";
 import { Navigate, Outlet } from "react-router-dom";
+import UserMenu from "./UserMenu";
 
 const AppContainer = () => {
   const { user, isLoading } = useAuth();
